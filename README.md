@@ -1,20 +1,20 @@
-# Gmail OTP Magic ✨
+# Gmail OTP Extension
 
-A smart Chrome Extension that automatically detects One-Time Passwords (OTPs) from your Gmail and offers to paste them directly into your current tab.
+A Chrome Extension that automatically detects One-Time Passwords (OTPs) from your Gmail and offers to paste them directly into your current tab.
 
-## Features 🚀
+## Features
 
 *   **Smart Detection**: Identifies OTPs using heuristics (checks for "Code:", "Verification:", etc.) and ignores years/phone numbers.
 *   **Alphanumeric Support**: Works with 6-digit codes, 4-digit pins, and alphanumeric codes (e.g. `G-123456`).
-*   **Freshness Check**: Only suggests codes that arrived *after* (or just before) you clicked the input field. No more old stale codes!
+*   **Freshness Check**: Only suggests codes that arrived *after* (or just before) you clicked the input field.
 *   **Brand Filtering**: Intelligent logic to ignore uppercase brand names (e.g. "KAYAK") unless explicitly identified as a code.
 *   **Auto-Paste**: One-click paste using simulated user input events for maximum compatibility.
 
-## Installation 🛠️
+## Installation
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/yourusername/gmail-otp-magic.git
+git clone https://github.com/manupareekk/GmailOTP.git
 ```
 
 ### 2. Google Cloud Setup (Required)
@@ -42,7 +42,7 @@ Because this extension reads your Gmail, you must generate your *own* Client ID.
 4.  Select this folder.
 5.  Click the extension icon and **Sign In**.
 
-## Privacy 🔒
+## Privacy
 This extension runs entirely in your browser.
 *   No data is sent to any external server (other than Google's official Gmail API).
 *   Your emails are processed locally to find the OTPs.
